@@ -1,0 +1,37 @@
+html body{
+	background: url(forest1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: "Syne Mono";
+}
+h1{
+	text-align: center;
+	font-size: 5rem;
+	color:#c2c2a3;
+	position: relative;
+	top: 200px;
+	left: 300px;
+	border : 2px solid white;
+	border-radius: 800px;
+    width : 800px;
+    background-color: rgba(1,1,1,0.3);
+}
+/*h1:hover{
+	background-color: red;
+
+}*/
+button{
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  bottom: 70px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(51, 102, 255,0.2)
+
+}
+.btn{
+	 font-weight: 700;
+	 border-radius: 300px; 
+	 text-transform: uppercase;
+}
